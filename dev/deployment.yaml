@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: 100115/argo-combined-app:1.0
+        image: 100115/argo-combined-app:1.0.0
         ports:
-        - containerPort: 8080
+        - containerPort: 80
